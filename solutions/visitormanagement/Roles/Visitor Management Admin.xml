@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{c551f6f4-a2a1-eb11-b1ac-000d3a831716}" name="Visitor Management Admin" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendTour_visitor" level="Global" />
+    <RolePrivilege name="prvAppendTour_visitorequipment" level="Global" />
+    <RolePrivilege name="prvAppendTour_visitorequipmentloan" level="Global" />
+    <RolePrivilege name="prvAppendur_visitor" level="Global" />
+    <RolePrivilege name="prvAppendur_visitorequipment" level="Global" />
+    <RolePrivilege name="prvAppendur_visitorequipmentloan" level="Global" />
+    <RolePrivilege name="prvAssignur_visitor" level="Global" />
+    <RolePrivilege name="prvAssignur_visitorequipmentloan" level="Global" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvCreateur_visitor" level="Global" />
+    <RolePrivilege name="prvCreateur_visitorequipment" level="Global" />
+    <RolePrivilege name="prvCreateur_visitorequipmentloan" level="Global" />
+    <RolePrivilege name="prvDeleteur_visitor" level="Global" />
+    <RolePrivilege name="prvDeleteur_visitorequipment" level="Global" />
+    <RolePrivilege name="prvDeleteur_visitorequipmentloan" level="Global" />
+    <RolePrivilege name="prvExportToExcel" level="Global" />
+    <RolePrivilege name="prvPrint" level="Global" />
+    <RolePrivilege name="prvReadAppModule" level="Global" />
+    <RolePrivilege name="prvReadBusinessUnit" level="Global" />
+    <RolePrivilege name="prvReadOrganization" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadTeam" level="Global" />
+    <RolePrivilege name="prvReadur_visitor" level="Global" />
+    <RolePrivilege name="prvReadur_visitorequipment" level="Global" />
+    <RolePrivilege name="prvReadur_visitorequipmentloan" level="Global" />
+    <RolePrivilege name="prvReadUser" level="Global" />
+    <RolePrivilege name="prvShareur_visitor" level="Global" />
+    <RolePrivilege name="prvShareur_visitorequipmentloan" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+    <RolePrivilege name="prvWriteur_visitor" level="Global" />
+    <RolePrivilege name="prvWriteur_visitorequipment" level="Global" />
+    <RolePrivilege name="prvWriteur_visitorequipmentloan" level="Global" />
+  </RolePrivileges>
+</Role>

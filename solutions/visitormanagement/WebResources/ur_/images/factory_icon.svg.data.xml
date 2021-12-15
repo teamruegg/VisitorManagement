@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{38ba41b2-892d-eb11-a813-000d3ad7c66c}</WebResourceId>
+  <Name>ur_/images/factory_icon.svg</Name>
+  <DisplayName>ur_/images/factory_icon.svg</DisplayName>
+  <Description>Factory Icon</Description>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ur_imagesfactory_iconsvg38BA41B2-892D-EB11-A813-000D3AD7C66C</FileName>
+</WebResource>

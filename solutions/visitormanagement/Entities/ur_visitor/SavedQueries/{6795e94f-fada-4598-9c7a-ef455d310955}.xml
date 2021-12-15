@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6795e94f-fada-4598-9c7a-ef455d310955}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_visitorid">
+          <cell name="ur_visitdate" width="86" />
+          <cell name="ur_firstname" width="100" />
+          <cell name="ur_lastname" width="82" />
+          <cell name="ur_email" width="100" />
+          <cell name="ur_visitorcontact" width="100" />
+          <cell name="ur_guesthost" width="127" />
+          <cell name="a_b716c008a409448d90370fae175d43ea.emailaddress1" width="182" />
+          <cell name="ur_maskequipped" width="48" />
+          <cell name="ur_helmequipped" width="48" />
+          <cell name="ur_haspacompetency" width="48" />
+          <cell name="ur_hasmrcompetency" width="48" />
+          <cell name="ur_hasfscompetency" width="48" />
+          <cell name="ur_checkin" width="132" />
+          <cell name="ur_checkout" width="100" />
+          <cell name="ur_pacompetencyearned" width="133" />
+          <cell name="ur_mrcompetencyearned" width="139" />
+          <cell name="ur_fscompetencyearned" width="133" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_visitor">
+          <attribute name="ur_visitorid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_visitdate" />
+          <attribute name="ur_maskequipped" />
+          <attribute name="ur_helmequipped" />
+          <attribute name="ur_checkout" />
+          <attribute name="ur_checkin" />
+          <order attribute="ur_visitdate" descending="true" />
+          <order attribute="ur_checkin" descending="true" />
+          <attribute name="ur_hasmrcompetency" />
+          <attribute name="ur_mrcompetencyearned" />
+          <attribute name="ur_guesthost" />
+          <attribute name="ur_visitorcontact" />
+          <link-entity alias="a_b716c008a409448d90370fae175d43ea" name="contact" to="ur_guesthost" from="contactid" link-type="outer" visible="false">
+            <attribute name="emailaddress1" />
+          </link-entity>
+          <attribute name="ur_email" />
+          <attribute name="ur_firstname" />
+          <attribute name="ur_lastname" />
+          <attribute name="ur_haspacompetency" />
+          <attribute name="ur_fscompetencyearned" />
+          <attribute name="ur_hasfscompetency" />
+          <attribute name="ur_pacompetencyearned" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Visitors" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="All Active Visitors" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

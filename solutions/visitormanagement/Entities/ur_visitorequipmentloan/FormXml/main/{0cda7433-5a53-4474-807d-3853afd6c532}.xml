@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0cda7433-5a53-4474-807d-3853afd6c532}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{1e3940ae-b363-44fc-aab6-242da6e9827a}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{952c6c25-104e-40a2-8368-2e051fdfdcfc}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4334c752-12be-4f67-87a6-7a6779987700}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1843868-9c78-46c8-ae68-68305bf50829}" locklevel="0">
+                        <labels>
+                          <label description="Visitor" languagecode="1033" />
+                        </labels>
+                        <control id="ur_visitor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_visitor" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3973b4db-8a6a-467d-8a66-24e495f2d23b}" locklevel="0">
+                        <labels>
+                          <label description="Equipment" languagecode="1033" />
+                        </labels>
+                        <control id="ur_visitorequipment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_visitorequipment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{59316f8b-5201-400d-8e63-d18e5aa943ef}" locklevel="0">
+                        <labels>
+                          <label description="Loan Date" languagecode="1033" />
+                        </labels>
+                        <control id="ur_loandate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ur_loandate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a4522f5-7899-4131-9305-68bd2632c956}" locklevel="0">
+                        <labels>
+                          <label description="Return Date" languagecode="1033" />
+                        </labels>
+                        <control id="ur_returndate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ur_returndate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d006aefc-03d2-4542-a346-b2602d1890b6}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{9da3d09c-8c38-4655-87c7-b3ac0c8c757f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d8c2c272-c62a-4133-8b51-4eb966c2cad7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a5d4b5e1-75f1-461e-9f6e-ae28c12f8b2a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8516cd73-cfa9-436e-a626-6434fba3c318}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{49a24d88-b361-4a31-bbc9-72396a75ec91}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c41eebd0-a6c1-4909-9a1b-cb58e707529b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9464afae-4e8b-42d0-a78f-f6a069a54298}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9588f0b0-da61-4e41-9c4b-7fc5024fd5d5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

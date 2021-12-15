@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ur_visitor" />
+  <EntityRelationship Name="business_unit_ur_visitorequipmentloan" />
+  <EntityRelationship Name="lk_ur_visitor_createdby" />
+  <EntityRelationship Name="lk_ur_visitor_modifiedby" />
+  <EntityRelationship Name="lk_ur_visitorequipment_createdby" />
+  <EntityRelationship Name="lk_ur_visitorequipment_modifiedby" />
+  <EntityRelationship Name="lk_ur_visitorequipmentloan_createdby" />
+  <EntityRelationship Name="lk_ur_visitorequipmentloan_modifiedby" />
+  <EntityRelationship Name="organization_ur_visitorequipment" />
+  <EntityRelationship Name="owner_ur_visitor" />
+  <EntityRelationship Name="owner_ur_visitorequipmentloan" />
+  <EntityRelationship Name="team_ur_visitor" />
+  <EntityRelationship Name="team_ur_visitorequipmentloan" />
+  <EntityRelationship Name="ur_visitor_guesthost_Contact" />
+  <EntityRelationship Name="ur_visitor_visitorcontact_Contact" />
+  <EntityRelationship Name="ur_visitorequipmentloan_visitor_ur_visito" />
+  <EntityRelationship Name="ur_visitorequipmentloan_visitorequipment_" />
+  <EntityRelationship Name="user_ur_visitor" />
+  <EntityRelationship Name="user_ur_visitorequipmentloan" />
+</EntityRelationships>
