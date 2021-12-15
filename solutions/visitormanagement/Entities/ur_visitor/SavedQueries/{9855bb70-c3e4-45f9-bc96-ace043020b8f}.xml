@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9855bb70-c3e4-45f9-bc96-ace043020b8f}</savedqueryid>
+    <layoutxml>
+      <grid name="ur_visitors" jump="ur_name" select="1" icon="1" preview="0">
+        <row name="ur_visitor" id="ur_visitorid">
+          <cell name="ur_visitorcontact" width="100" />
+          <cell name="ur_visitdate" width="86" />
+          <cell name="ur_name" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_visitor">
+          <attribute name="ur_visitorid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_visitdate" />
+          <order attribute="ur_visitdate" descending="true" />
+          <attribute name="ur_visitorcontact" />
+          <attribute name="ur_name" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Visitor Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

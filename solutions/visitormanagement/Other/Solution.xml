@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21114.126" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>visitormanagement</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Visitor Management" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Visitor Management with Self Registration app" languagecode="1033" />
+    </Descriptions>
+    <Version>0.8.0.7</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>ursruegg</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Urs Rüegg" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress>urs.ruegg@teamruegg.com</EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ur</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>31581</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City>Zumikon</City>
+          <County xsi:nil="true"></County>
+          <Country>Switzerland</Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1>Ankenbüel 7</Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode>8126</PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince>ZH</StateOrProvince>
+          <Telephone1>+41 (79) 6001784</Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="ur_visitor" behavior="0" />
+      <RootComponent type="1" schemaName="ur_visitorequipment" behavior="0" />
+      <RootComponent type="1" schemaName="ur_visitorequipmentloan" behavior="0" />
+      <RootComponent type="20" id="{301c3208-a3a1-eb11-b1ac-000d3a831716}" behavior="0" />
+      <RootComponent type="20" id="{c551f6f4-a2a1-eb11-b1ac-000d3a831716}" behavior="0" />
+      <RootComponent type="29" id="{225e6694-6303-ec11-b6e6-0022486f6837}" behavior="0" />
+      <RootComponent type="29" id="{465f9a39-a1a1-eb11-b1ac-000d3a831716}" behavior="0" />
+      <RootComponent type="29" id="{9197ac8f-4bb2-eb11-8236-0022486f6cfb}" behavior="0" />
+      <RootComponent type="60" id="{281dde19-bc08-ec11-b6e6-0022486f6824}" behavior="0" />
+      <RootComponent type="60" id="{de648a6f-b3a1-eb11-b1ac-000d3a831716}" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/devicetablet_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/engineer_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/factory_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/meeting_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/share_icon.svg" behavior="0" />
+      <RootComponent type="61" schemaName="ur_/images/visitor_management.svg" behavior="0" />
+      <RootComponent type="62" schemaName="ur_VisitorManagement" behavior="0" />
+      <RootComponent type="80" schemaName="ur_VisitorManagement" behavior="0" />
+      <RootComponent type="300" schemaName="ur_visitorexperiencecheckapp_79007" behavior="0" />
+      <RootComponent type="300" schemaName="ur_visitorselfregistrationapp_71078" behavior="0" />
+      <RootComponent type="300" schemaName="ur_visitorselfregistrationmobileapp_880db" behavior="0" />
+      <RootComponent type="300" schemaName="ur_visitorwelcomedeskapp_2927e" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="2" schemaName="businesscard" displayName="Business Card" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_SalesPatch201904 (9.0.1912.1007)">
+          <package>msdynce_SalesAnchor (9.0.21113.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="businesscardattributes" displayName="BusinessCardAttributes" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_SalesPatch201904 (9.0.1912.1007)">
+          <package>msdynce_SalesAnchor (9.0.21113.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Contact/Contact.Library.js" displayName="msdyn_/Contact/Contact.Library.js" solution="FieldService (8.8.0.88)">
+          <package>FieldService_trial (8.8.56.23)</package>
+        </Required>
+        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_talkingpointsloader.js" displayName="msdyn_talkingpointsloader.js" solution="msdynce_Talkingpoints (9.0.1.701524)">
+          <package>msdynce_SalesInsightsAnchor (9.0.21113.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2111.4011)" />
+        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.AddressInputUCI" displayName="Microsoft.AddressInputUCI" solution="BaseCustomControlsCore (9.0.2111.4011)" />
+        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2111.4011)" />
+        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.4011)" />
+        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.4011)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Visitor" id="{58666681-43dd-4224-92df-5bcb359e0e4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.TalkingPointsControl.TalkingPoints" displayName="MscrmControls.TalkingPointsControl.TalkingPoints" solution="msdynce_Talkingpoints (9.0.1.701524)">
+          <package>msdynce_SalesInsightsAnchor (9.0.21113.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

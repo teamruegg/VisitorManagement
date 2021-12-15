@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{339918d9-754e-4144-ae56-36faaad2cc1a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_visitorequipmentloanid">
+          <cell name="a_c738b678dae441ec9327bc32b8336440.ur_visitorcontact" width="150" disableSorting="1" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="a_c738b678dae441ec9327bc32b8336440.ur_visitdate" width="86" />
+          <cell name="a_c738b678dae441ec9327bc32b8336440.ur_checkin" width="133" />
+          <cell name="a_c738b678dae441ec9327bc32b8336440.ur_checkout" width="132" />
+          <cell name="ur_visitorequipment" width="100" />
+          <cell name="ur_loandate" width="133" />
+          <cell name="ur_returndate" width="139" />
+          <cell name="ur_visitor" width="300" />
+          <cell name="ur_name" width="201" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_visitorequipmentloan">
+          <attribute name="ur_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_loandate" />
+          <attribute name="ur_returndate" />
+          <attribute name="ur_visitorequipment" />
+          <order attribute="ur_loandate" descending="true" />
+          <attribute name="ur_visitor" />
+          <link-entity alias="a_c738b678dae441ec9327bc32b8336440" name="ur_visitor" to="ur_visitor" from="ur_visitorid" link-type="outer" visible="false">
+            <attribute name="ur_visitdate" />
+            <attribute name="ur_checkout" />
+            <attribute name="ur_checkin" />
+            <attribute name="ur_visitorcontact" />
+          </link-entity>
+          <attribute name="ur_visitorequipmentloanid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Visitor Equipment Loans" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

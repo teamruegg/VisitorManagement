@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{1d029b14-46a0-eb11-b1ac-000d3a83172c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_visitorequipmentid">
+          <cell name="ur_name" width="115" />
+          <cell name="ur_description" width="300" />
+          <cell name="ur_isavailable" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_visitorequipment">
+          <attribute name="ur_visitorequipmentid" />
+          <attribute name="ur_name" />
+          <order attribute="ur_name" descending="false" />
+          <attribute name="ur_description" />
+          <attribute name="ur_isavailable" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="ur_isavailable" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Available Visitor Equipments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{b8ffcb4c-b308-ec11-b6e6-0022486f6824}</WebResourceId>
+  <Name>ur_/images/devicetablet_icon.svg</Name>
+  <DisplayName>ur_/images/devicetablet_icon.svg</DisplayName>
+  <Description>Device Tablet Icon</Description>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>0.0.0.3</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ur_imagesdevicetablet_iconsvgB8FFCB4C-B308-EC11-B6E6-0022486F6824</FileName>
+</WebResource>

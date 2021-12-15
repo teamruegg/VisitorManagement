@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InteractionCentricDashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Visitor Welcome Dashboard" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{281dde19-bc08-ec11-b6e6-0022486f6824}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="interactioncentricdashboard">
+      <form>
+        <tabs filterby="ur_visitdate" timeframe="2" primaryentitylogicalname="ur_visitor" entityview="{6795E94F-FADA-4598-9C7A-EF455D310955}" dashboardCategory="2_0" tilespresent="true">
+          <tab name="StreamsContainer" showlabel="true" verticallayout="true" collapsible="false" id="{a46eaad5-9145-44c1-afea-5f44a3b903c9}">
+            <labels>
+              <label description="Streams and Visual Filters" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="25%">
+                <sections>
+                  <section name="Streams" showlabel="true" showbar="false" columns="11" id="{2a0622e7-357e-46ef-8542-c8a8ee7aa28c}">
+                    <labels>
+                      <label description="Streams" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="24" showlabel="false" isstreamcell="true" id="{f427609c-cf14-481d-9922-46cb04913d1d}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{12cb7bb3-436e-12ea-bed0-52c33426b293}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>false</ShowAsTiles>
+                                <StreamObject id="{7b709e6b-31d3-dbb6-6319-5737990b41ab}" type="1">
+                                  <LogicalEntityName>ur_visitor</LogicalEntityName>
+                                  <EntityViewId>{6795E94F-FADA-4598-9C7A-EF455D310955}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+              <column width="50%">
+                <sections>
+                  <section name="VisualFilters" showlabel="true" showbar="false" columns="1111" id="{494d9f22-74b9-48c2-964a-058ce5eb92ee}">
+                    <labels>
+                      <label description="Charts" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="8" showlabel="false" ischartcell="true" id="{6b4d0895-7070-42db-8b1c-f3f7b6c260fc}" auto="false">
+                          <labels>
+                            <label description="Visitor" languagecode="1033" />
+                          </labels>
+                          <control id="Component5acecd3" uniqueid="{2c918106-76aa-1540-e29a-868dbe08a7d3}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>ur_visitor</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>6</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{6795E94F-FADA-4598-9C7A-EF455D310955}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{67B3D6CF-B3A1-EB11-B1AC-000D3A831716}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="2" rowspan="8" showlabel="false" ischartcell="true" id="{9ec04eaa-8feb-4a3b-898d-415b75805dd7}" auto="false" ispreviewcell="true">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="4" rowspan="8" showlabel="false" ischartcell="true" id="{f0fbc633-adb7-4da4-a4ec-9df865f03cb2}" auto="false">
+                          <labels>
+                            <label description="Visitor" languagecode="1033" />
+                          </labels>
+                          <control id="Component1818cdb" uniqueid="{1c03a332-7619-990b-bc42-4ea383179128}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>ur_visitor</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>6</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{6795E94F-FADA-4598-9C7A-EF455D310955}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{5E808B62-B4A1-EB11-B1AC-000D3A831716}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="2" rowspan="8" showlabel="false" ischartcell="true" id="{ddabad79-9ba3-47ec-a911-2e267a645edb}" auto="false">
+                          <labels>
+                            <label description="Visitors" languagecode="1033" />
+                          </labels>
+                          <control id="Component9457a98" uniqueid="{d35ebc68-9710-ae29-8908-028537dd63aa}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>ur_visitor</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>6</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{6795E94F-FADA-4598-9C7A-EF455D310955}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{7C425847-BE08-EC11-B6E6-0022486F6824}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="2" rowspan="8" showlabel="false" ischartcell="true" id="{956656b6-4797-429a-a941-1aa24406f271}" auto="false">
+                          <labels>
+                            <label description="Visitors" languagecode="1033" />
+                          </labels>
+                          <control id="Componentb6ece9c" uniqueid="{1bbee7c3-7cc5-1b40-c105-7164509e05e7}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>ur_visitor</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>6</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{6795E94F-FADA-4598-9C7A-EF455D310955}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{68730FB7-BE08-EC11-B6E6-0022486F6824}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+              <column width="25%">
+                <sections>
+                  <section name="Tiles" showlabel="true" showbar="false" columns="11" id="{79b2a5d7-9821-41bd-8785-267dac45c7d5}">
+                    <labels>
+                      <label description="Tiles" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="1" rowspan="8" showlabel="false" istilecell="true" id="{96ec55bf-ed9e-4fe5-bc15-9c54b410865a}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{a96a6acb-c197-b1e7-3b24-1e761385b1ed}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>true</ShowAsTiles>
+                                <StreamObject id="{53c29e55-4180-2aa2-aa50-c496ee188430}" type="1">
+                                  <LogicalEntityName>ur_visitor</LogicalEntityName>
+                                  <EntityViewId>{6795E94F-FADA-4598-9C7A-EF455D310955}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="8" showlabel="false" istilecell="true" id="{c8146dad-5640-4a55-a4bb-62fae9eaea4f}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{535654d0-5bc4-20a4-9e72-b8859ba58124}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>true</ShowAsTiles>
+                                <StreamObject id="{0ec827ab-7984-6825-c707-5413db28a584}" type="1">
+                                  <LogicalEntityName>ur_visitor</LogicalEntityName>
+                                  <EntityViewId>{9385CFD5-09A1-EB11-B1AC-000D3A831716}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="1" rowspan="8" showlabel="false" istilecell="true" id="{ab735c0f-0254-4138-8378-dfe53d63bf44}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{9212a260-77b6-434e-a9ce-d77c653bce31}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>true</ShowAsTiles>
+                                <StreamObject id="{5b4e223b-3482-ba46-8d90-3e969dbe6ab8}" type="1">
+                                  <LogicalEntityName>ur_visitor</LogicalEntityName>
+                                  <EntityViewId>{ADA76DAA-B8A1-EB11-B1AC-000D3A83172C}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="8" showlabel="false" istilecell="true" id="{21283b17-f8ec-4c08-a441-d9dbe672929b}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{2757aeed-ca50-67dc-38c2-d1b291237988}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>true</ShowAsTiles>
+                                <StreamObject id="{eb6053a8-0b1e-3300-1450-564e84a91543}" type="1">
+                                  <LogicalEntityName>ur_visitor</LogicalEntityName>
+                                  <EntityViewId>{12042876-BD08-EC11-B6E6-0022486F6824}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="1" rowspan="8" showlabel="false" istilecell="true" id="{0d924eda-f53f-4667-ab58-98f150bf6d79}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{d98b6332-168e-a5bb-69a8-b745041db9ea}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>true</ShowAsTiles>
+                                <StreamObject id="{182e4946-2d40-9278-5615-d1b9405e5a85}" type="1">
+                                  <LogicalEntityName>ur_visitor</LogicalEntityName>
+                                  <EntityViewId>{9664019F-BC08-EC11-B6E6-0022486F6824}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="8" showlabel="false" istilecell="true" id="{0dc45a2b-529f-4554-a455-c9e4047ff68f}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{bb684452-1684-252b-88d8-89292cc73d95}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>true</ShowAsTiles>
+                                <StreamObject id="{2a96795b-1345-4628-3e02-eae1d7142398}" type="1">
+                                  <LogicalEntityName>ur_visitor</LogicalEntityName>
+                                  <EntityViewId>{B021A0CB-BC08-EC11-B6E6-0022486F6824}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>0.0.0.3</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</InteractionCentricDashboard>

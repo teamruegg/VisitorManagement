@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b42880a3-0e14-4067-b3cd-7c0068c0b232}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_visitorid">
+          <cell name="ur_visitorcontact" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="ur_visitdate" width="100" />
+          <cell name="ur_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_visitor">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="ur_name" operator="like" value="{0}" />
+          </filter>
+          <attribute name="ur_visitdate" />
+          <order attribute="ur_visitdate" descending="true" />
+          <attribute name="ur_visitorcontact" />
+          <attribute name="ur_name" />
+          <attribute name="ur_visitorid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Visitors" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

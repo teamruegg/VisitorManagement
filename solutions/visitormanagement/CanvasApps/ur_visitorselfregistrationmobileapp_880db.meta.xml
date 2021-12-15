@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ur_visitorselfregistrationmobileapp_880db</Name>
+  <AppVersion>2021-09-02T13:17:41Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21084.20.0</CreatedByClientVersion>
+  <MinClientVersion>3.21084.20.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"7e8591c0-1b88-41d1-97e0-9577f27ca664","deviceCapabilities":"webcam","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.21084.20","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(239, 31, 63, 1)</BackgroundColor>
+  <DisplayName>VisitorSelfRegistrationMobileApp</DisplayName>
+  <Description>Visitor Welcome Self Registration Check-In and Check-Out app for mobile</Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"060abcc2-96bb-4ce7-b073-324a23f5bb5c":{"id":"/providers/microsoft.powerapps/apis/shared_cognitiveservicescustomvision","xrmConnectionReferenceLogicalName":"new_sharedcognitiveservicescustomvision_1695c","displayName":"Custom Vision","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1481/1.0.1481.2460/cognitiveservicescustomvision/icon.png","dataSources":["CustomVision"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"sharedConnectionId":"29f623c5-a56b-4b88-b134-5c33a832e5ce","bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["ClassifyImageV2"]}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Contacts":{"entitySetName":"contacts","logicalName":"contact"},"Visitor Equipment Loans":{"entitySetName":"ur_visitorequipmentloans","logicalName":"ur_visitorequipmentloan"},"Visitors":{"entitySetName":"ur_visitors","logicalName":"ur_visitor"},"Visitor Equipments":{"entitySetName":"ur_visitorequipments","logicalName":"ur_visitorequipment"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"contact","componenttype":1},{"logicalname":"ur_visitorequipmentloan","componenttype":1},{"logicalname":"ur_visitor","componenttype":1},{"logicalname":"ur_visitorequipment","componenttype":1},{"logicalname":"new_sharedcognitiveservicescustomvision_1695c","componenttype":10035,"componenttypeplatformname":"ConnectionReference"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/ur_visitorselfregistrationmobileapp_880db_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/ur_visitorselfregistrationmobileapp_880db_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

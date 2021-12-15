@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{58666681-43dd-4224-92df-5bcb359e0e4b}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{46202d41-1f8a-4a0e-ab9a-0bd1b2b06bd2}" IsUserDefined="1" name="general_tab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{3865eedf-adee-4eb8-a6a5-2f46b2a978b3}" name="general_tab_section_general">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4d364768-f15f-4d02-a5b0-2edea25f1915}">
+                        <labels>
+                          <label description="Visit" languagecode="1033" />
+                        </labels>
+                        <control id="ur_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de0e7501-8aea-4bb7-8ebd-e4b7580bd5e1}" locklevel="0">
+                        <labels>
+                          <label description="Visit Date" languagecode="1033" />
+                        </labels>
+                        <control id="ur_visitdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ur_visitdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{097406ac-62b3-45d3-a556-797af06dc0b0}" locklevel="0">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f0f6bab-32bf-4e5d-be6a-c3db38de3002}" locklevel="0">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{61782c11-9d27-43b3-80c2-fc3ab894fc15}" locklevel="0">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="ur_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="ur_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{180221dd-4c24-4ebf-a2af-1e8f3c4db372}" locklevel="0">
+                        <labels>
+                          <label description="Visitor Contact" languagecode="1033" />
+                        </labels>
+                        <control id="ur_visitorcontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_visitorcontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d0aadf6-9530-4ce8-981b-0e094bd13f72}" locklevel="0">
+                        <labels>
+                          <label description="Guest Host" languagecode="1033" />
+                        </labels>
+                        <control id="ur_guesthost" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_guesthost" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1626e8b-d2f6-4b9e-a07b-4965c67b32a8}" locklevel="0">
+                        <labels>
+                          <label description="Photo" languagecode="1033" />
+                        </labels>
+                        <control id="ur_visitorphoto" classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}" datafieldname="ur_visitorphoto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dcccad7e-b3b6-409f-b7e5-6cb681fef44a}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="general_tab_equipment_loans_section" id="e9ed2363-f428-4cec-839f-13508d8070e4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Equipment Loans" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{573724b5-c972-4751-8ba0-270031786419}" rowspan="1" colspan="1" showlabel="false">
+                        <labels>
+                          <label description="Equipment Loans" languagecode="1033" />
+                        </labels>
+                        <control id="equipment_loans_subgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>ur_visitorequipmentloan</TargetEntityType>
+                            <ViewId>{339918D9-754E-4144-AE56-36FAAAD2CC1A}</ViewId>
+                            <ViewIds>{339918D9-754E-4144-AE56-36FAAAD2CC1A}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>ur_visitorequipmentloan_visitor_ur_visito</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="general_tab_section_visit" id="ab8e75d6-3cf4-4075-b4dc-9428b977aee9" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Visit" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bd549d0f-739b-487a-b0e1-4e97db9380b6}" locklevel="0">
+                        <labels>
+                          <label description="Check In" languagecode="1033" />
+                        </labels>
+                        <control id="ur_checkin" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ur_checkin" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b2c2111e-e81b-4516-9202-342bc52223a6}" locklevel="0">
+                        <labels>
+                          <label description="Check Out" languagecode="1033" />
+                        </labels>
+                        <control id="ur_checkout" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ur_checkout" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="general_tab_section_safe_working" id="e060ffd3-f3f4-47a6-ba6f-95c8ccb928f2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Safe Working" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4cc266e4-1fd9-4c8e-af49-bec87bf23d05}" locklevel="0">
+                        <labels>
+                          <label description="Safe Work Check" languagecode="1033" />
+                        </labels>
+                        <control id="ur_safeworkcheck" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_safeworkcheck" disabled="false" uniqueid="{2afe062a-78cc-43f6-a88b-669c307846ff}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3423f1fa-7c76-4aa8-bd94-d70ec0d1e5b4}" locklevel="0">
+                        <labels>
+                          <label description="Safe Work Result" languagecode="1033" />
+                        </labels>
+                        <control id="ur_safeworkresult" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ur_safeworkresult" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b787a62b-f62c-468c-9907-b1415f7d4a53}" locklevel="0">
+                        <labels>
+                          <label description="Helm Equipped" languagecode="1033" />
+                        </labels>
+                        <control id="ur_helmequipped" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_helmequipped" disabled="false" uniqueid="{7f10f710-1c5b-4fa8-9f82-b2faa7b0d74c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2129253-2bed-4889-80e8-ea34732a8054}" locklevel="0">
+                        <labels>
+                          <label description="Mask Equipped" languagecode="1033" />
+                        </labels>
+                        <control id="ur_maskequipped" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_maskequipped" disabled="false" uniqueid="{4b4fbdc4-6296-4d3f-bf7b-d1d586258dc0}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="general_tab_section_competency" id="c38da2fc-5b7a-4a17-955a-797bed3d0179" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Competency" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dce2a4f5-63d6-4bb2-a79e-0ad0dd8fe447}" locklevel="0">
+                        <labels>
+                          <label description="Power Apps" languagecode="1033" />
+                        </labels>
+                        <control id="ur_haspacompetency" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_haspacompetency" disabled="false" uniqueid="{ed6f7d46-bb0b-422b-aa01-ee86544985d7}" />
+                      </cell>
+                      <cell id="{f92c9674-78ad-41e4-9048-7ec91672217f}" locklevel="0">
+                        <labels>
+                          <label description="Power App earned" languagecode="1033" />
+                        </labels>
+                        <control id="ur_pacompetencyearned" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ur_pacompetencyearned" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9be8f01f-0691-4ad8-9598-20204cd3a153}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Mixed Reality" languagecode="1033" />
+                        </labels>
+                        <control id="ur_hasmrcompetency" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_hasmrcompetency" disabled="false" uniqueid="{b6ab0143-1193-44f3-8aa9-3cafa768cc01}" />
+                      </cell>
+                      <cell id="{ff77ed20-eba1-4839-92c6-88cfc0e51f5f}" locklevel="0">
+                        <labels>
+                          <label description="Mixed Reality earned" languagecode="1033" />
+                        </labels>
+                        <control id="ur_mrcompetencyearned" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ur_mrcompetencyearned" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e0df8951-e91a-4027-a00e-e359bc0a6747}" locklevel="0">
+                        <labels>
+                          <label description="Field Service" languagecode="1033" />
+                        </labels>
+                        <control id="ur_hasfscompetency" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ur_hasfscompetency" disabled="false" uniqueid="{34e7c15c-ed6b-4abd-93fe-62e44657d271}" />
+                      </cell>
+                      <cell id="{a821db7a-865d-4e4c-8486-d0989ed90a7e}" locklevel="0">
+                        <labels>
+                          <label description="Field Service earned" languagecode="1033" />
+                        </labels>
+                        <control id="ur_fscompetencyearned" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ur_fscompetencyearned" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{b1673d22-c0a9-4268-b0e5-daff9f7d1892}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{9f4a117f-8dec-493d-8b09-d7f1a96f07bb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{942a0cb4-73c3-45c8-87f6-dfe671c57388}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{c4555607-9072-4848-8637-49d646707554}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{b6965ee4-200d-4383-8c5f-cae4090a42c5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{c2f3f26d-e0f7-4b40-95ad-c908b944bbdc}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ea5a0d33-2302-49d4-9f88-7b34411e39b6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7c27d75c-ed34-2800-8226-67c9b74ae809}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Visit Date" languagecode="1033" />
+              </labels>
+              <control id="header_ur_visitdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="ur_visitdate" disabled="false" />
+            </cell>
+            <cell id="{63733edd-eedb-075d-7eb7-a0c4eb781b82}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Check In" languagecode="1033" />
+              </labels>
+              <control id="header_ur_checkin" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="ur_checkin" disabled="false" />
+            </cell>
+            <cell id="{29132579-620a-710a-857a-1dd3e4ae2026}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Check Out" languagecode="1033" />
+              </labels>
+              <control id="header_ur_checkout" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="ur_checkout" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{3af280e8-9e65-4454-a8ee-d267d2340ee6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{13d8d1bf-26a9-4ec3-afa3-1e02f0710da6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1880c9f8-c530-4f2a-8657-2ef36cd3afc8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7f838d0b-7b2d-48d7-a76f-9a4c8c8a89bf}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{7f10f710-1c5b-4fa8-9f82-b2faa7b0d74c}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_helmequipped</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>ur_helmequipped</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>ur_helmequipped</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>ur_helmequipped</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{4b4fbdc4-6296-4d3f-bf7b-d1d586258dc0}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_maskequipped</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>ur_maskequipped</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>ur_maskequipped</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>ur_maskequipped</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{b6ab0143-1193-44f3-8aa9-3cafa768cc01}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_hasmrcompetency</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>ur_hasmrcompetency</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>ur_hasmrcompetency</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>ur_hasmrcompetency</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{ed6f7d46-bb0b-422b-aa01-ee86544985d7}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_haspacompetency</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ur_haspacompetency</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ur_haspacompetency</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ur_haspacompetency</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{34e7c15c-ed6b-4abd-93fe-62e44657d271}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_hasfscompetency</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ur_hasfscompetency</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ur_hasfscompetency</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ur_hasfscompetency</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{2afe062a-78cc-43f6-a88b-669c307846ff}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ur_safeworkcheck</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ur_safeworkcheck</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ur_safeworkcheck</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ur_safeworkcheck</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ur_VisitorManagement</UniqueName>
+  <IntroducedVersion>0.0.0.1</IntroducedVersion>
+  <WebResourceId>123c98f0-c108-ec11-b6e6-0022486f6824</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="ur_VisitorManagement" />
+    <AppModuleComponent type="60" id="{de648a6f-b3a1-eb11-b1ac-000d3a831716}" />
+    <AppModuleComponent type="60" id="{281dde19-bc08-ec11-b6e6-0022486f6824}" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="60" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
+    <AppModuleComponent type="26" id="{d95a4b12-b8b4-eb11-8236-0022486f6cfb}" />
+    <AppModuleComponent type="26" id="{ef796a04-b8b4-eb11-8236-0022486f6cfb}" />
+    <AppModuleComponent type="59" id="{ea89e2ad-2602-4333-8724-aa5775d66b77}" />
+    <AppModuleComponent type="1" schemaName="ur_visitor" />
+    <AppModuleComponent type="60" id="{58666681-43dd-4224-92df-5bcb359e0e4b}" />
+    <AppModuleComponent type="60" id="{ceff008c-d087-4e73-ad9f-df81f3751e49}" />
+    <AppModuleComponent type="26" id="{6795e94f-fada-4598-9c7a-ef455d310955}" />
+    <AppModuleComponent type="26" id="{4df57710-f80b-ec11-b6e6-0022486f653b}" />
+    <AppModuleComponent type="26" id="{0e09074c-bc08-ec11-b6e6-0022486f653b}" />
+    <AppModuleComponent type="26" id="{9385cfd5-09a1-eb11-b1ac-000d3a831716}" />
+    <AppModuleComponent type="26" id="{ac262b05-04b9-4a9b-9623-0841712fe660}" />
+    <AppModuleComponent type="26" id="{c0add240-bd08-ec11-b6e6-0022486f653b}" />
+    <AppModuleComponent type="26" id="{12042876-bd08-ec11-b6e6-0022486f6824}" />
+    <AppModuleComponent type="26" id="{ada76daa-b8a1-eb11-b1ac-000d3a83172c}" />
+    <AppModuleComponent type="26" id="{276ac705-7311-4dba-97d5-abb5c817c9f8}" />
+    <AppModuleComponent type="26" id="{58b91434-ec6d-4ba0-abea-82f98d35283f}" />
+    <AppModuleComponent type="26" id="{9855bb70-c3e4-45f9-bc96-ace043020b8f}" />
+    <AppModuleComponent type="26" id="{03e09be7-bc08-ec11-b6e6-0022486f6824}" />
+    <AppModuleComponent type="26" id="{9664019f-bc08-ec11-b6e6-0022486f6824}" />
+    <AppModuleComponent type="26" id="{b021a0cb-bc08-ec11-b6e6-0022486f6824}" />
+    <AppModuleComponent type="59" id="{5e808b62-b4a1-eb11-b1ac-000d3a831716}" />
+    <AppModuleComponent type="59" id="{67b3d6cf-b3a1-eb11-b1ac-000d3a831716}" />
+    <AppModuleComponent type="59" id="{f933bfbf-a7a1-eb11-b1ac-000d3a831716}" />
+    <AppModuleComponent type="59" id="{68730fb7-be08-ec11-b6e6-0022486f6824}" />
+    <AppModuleComponent type="59" id="{7c425847-be08-ec11-b6e6-0022486f6824}" />
+    <AppModuleComponent type="1" schemaName="ur_visitorequipment" />
+    <AppModuleComponent type="60" id="{346bccd6-0ef4-4137-a85e-1e22ac44a3aa}" />
+    <AppModuleComponent type="60" id="{f955a8a4-e4ea-451a-9810-a385850942b3}" />
+    <AppModuleComponent type="26" id="{ae8ac35d-a873-47bc-a51d-fd8e13373a8f}" />
+    <AppModuleComponent type="26" id="{1d029b14-46a0-eb11-b1ac-000d3a83172c}" />
+    <AppModuleComponent type="26" id="{0a927b5f-4054-4b6a-95f3-e5a2b1e09ad4}" />
+    <AppModuleComponent type="26" id="{0fb10756-69f9-403e-92b5-5d90e149dab7}" />
+    <AppModuleComponent type="26" id="{e1f1327c-6d16-403a-a75f-abedb998fc4e}" />
+    <AppModuleComponent type="26" id="{196804ee-397d-49a9-ad77-9b28085110cd}" />
+    <AppModuleComponent type="1" schemaName="ur_visitorequipmentloan" />
+    <AppModuleComponent type="60" id="{0cda7433-5a53-4474-807d-3853afd6c532}" />
+    <AppModuleComponent type="60" id="{b7e845e3-9ccf-4ec9-97e8-0838329bc9b8}" />
+    <AppModuleComponent type="26" id="{339918d9-754e-4144-ae56-36faaad2cc1a}" />
+    <AppModuleComponent type="26" id="{fc727da8-c8c9-42e4-a4f1-18f977b968f6}" />
+    <AppModuleComponent type="26" id="{a37c6f62-b7a1-eb11-b1ac-000d3a831716}" />
+    <AppModuleComponent type="26" id="{47ead6ef-b5e7-4ed3-bb8d-d8c52d4bc533}" />
+    <AppModuleComponent type="26" id="{7cd48e7b-c9cc-4002-8a12-658b50b10dd6}" />
+    <AppModuleComponent type="26" id="{1ae7520b-4dab-4937-9c91-0713f2c54d26}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Visitor Management" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Visitor Management admin app" languagecode="1033" />
+  </Descriptions>
+</AppModule>
