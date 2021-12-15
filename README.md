@@ -1,7 +1,7 @@
 # Visitor Management
 The Visitor Management is a collection of four Power Apps to manage smart factory visitors.
 
-##Introduction
+## Introduction
 The Welcome Desk application is a self-service application manage smart factory visitors and their equipment loans, like Tablet or HoloLens during the visit. New visitors can register them self at the Visitor Welcome Desk by selecting the guest host, entering their contact data and selecting a loan equipment to be used during their visit. To ensure safety work rules during their stay, the app captures a photo of the visitor and using AI Vision to check, if the visitors is equipped with Hard Hat and Mask.
 
 The Visitor can either register them self-using:
