@@ -6,6 +6,8 @@ The Visitor Management is a collection of four Power Apps to manage smart factor
 * Visitor Management app to manage visits
 * Visitor Mixed Reality app to confirm mixed reality competency
 
+![Image of Visitor Management](/images/SwissSmartFactoryVisitorManagementApps.png)
+
 We build this apps during a three day Hackathon with the Swiss Smart Factory team.
 
 ## Visitor Self Registration app - Welcome Desk
