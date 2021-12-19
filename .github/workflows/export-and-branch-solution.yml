@@ -1,6 +1,18 @@
 name: export-and-branch-solution
 # Export solution from DEV environment
 #  unpack it and prepare, commit and push a git branch with the changes
+#  
+#  using spn-auth with Client ID and Tenant ID 
+#  
+#  using secrets for
+#   ClientID              Service Principal App ID
+#   TentantID             Service Principal Azure AD tenant
+#   Password              User Password
+#   PowerPlatformSPN      Service Principal secrtes
+#
+#   DevEnvironmentUrl     Url referencing the development environment
+#   BuildEnvironmentUrl   Url referencing the build environment
+#   ProdEnvironmentUrl    Url referencing the production environment
 
 on:
   workflow_dispatch:
@@ -23,11 +35,6 @@ on:
        description: 'folder name to be created and checked in *do not change*'
        required: true
        default: solutions/
-#env:
-#edit your values here
-#  ENVIRONMENT_URL: 'https://ssfdevelopment.crm17.dynamics.com'
-#  CLIENT_ID: '358dd098-0ad7-4371-99ba-e99cbbaca06a'
-#  TENANT_ID: 'fcc9271a-44d3-4aa8-8442-d054bcbbe44a'
 
 jobs:
   export-from-dev:
