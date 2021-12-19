@@ -23,11 +23,11 @@ on:
        description: 'folder name to be created and checked in *do not change*'
        required: true
        default: solutions/
-env:
+#env:
 #edit your values here
-  ENVIRONMENT_URL: 'https://ssfdevelopment.crm17.dynamics.com'
-  CLIENT_ID: '358dd098-0ad7-4371-99ba-e99cbbaca06a'
-  TENANT_ID: 'fcc9271a-44d3-4aa8-8442-d054bcbbe44a'
+#  ENVIRONMENT_URL: 'https://ssfdevelopment.crm17.dynamics.com'
+#  CLIENT_ID: '358dd098-0ad7-4371-99ba-e99cbbaca06a'
+#  TENANT_ID: 'fcc9271a-44d3-4aa8-8442-d054bcbbe44a'
 
 jobs:
   export-from-dev:
@@ -44,19 +44,19 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@0.4.0
       with:
-        environment-url: ${{env.ENVIRONMENT_URL}}
-        app-id: ${{env.CLIENT_ID}}
+        environment-url: ${{secrets.DevEnvironmentUrl}}
+        app-id: ${{secrets.ClientID}}
         client-secret: ${{ secrets.PowerPlatformSPN }}
-        tenant-id: ${{env.TENANT_ID}}
+        tenant-id: ${{secrets.TentantID}}
 
 
     - name: export-solution action
       uses: microsoft/powerplatform-actions/export-solution@0.4.0
       with:
-        environment-url: ${{env.ENVIRONMENT_URL}}
-        app-id: ${{env.CLIENT_ID}}
+        environment-url: ${{secrets.DevEnvironmentUrl}}
+        app-id: ${{secrets.ClientID}}
         client-secret: ${{ secrets.PowerPlatformSPN }}
-        tenant-id: ${{env.TENANT_ID}}
+        tenant-id: ${{secrets.TentantID}}
         solution-name: ${{ github.event.inputs.solution_name }}
         solution-output-file: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip
 
