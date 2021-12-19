@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21114.126" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21121.115" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>visitormanagement</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Visitor Management with Self Registration app" languagecode="1033" />
     </Descriptions>
-    <Version>0.8.0.7</Version>
+    <Version>0.8.0.8</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>ursruegg</UniqueName>
@@ -118,35 +118,23 @@
         <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="61" schemaName="msdyn_/Contact/Contact.Library.js" displayName="msdyn_/Contact/Contact.Library.js" solution="FieldService (8.8.0.88)">
-          <package>FieldService_trial (8.8.56.23)</package>
-        </Required>
+        <Required type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2111.5017)" />
         <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="61" schemaName="msdyn_talkingpointsloader.js" displayName="msdyn_talkingpointsloader.js" solution="msdynce_Talkingpoints (9.0.1.701524)">
-          <package>msdynce_SalesInsightsAnchor (9.0.21113.10005)</package>
-        </Required>
+        <Required type="66" schemaName="Microsoft.AddressInputUCI" displayName="Microsoft.AddressInputUCI" solution="BaseCustomControlsCore (9.0.2111.5017)" />
         <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2111.4011)" />
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2111.5017)" />
         <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="Microsoft.AddressInputUCI" displayName="Microsoft.AddressInputUCI" solution="BaseCustomControlsCore (9.0.2111.4011)" />
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.5017)" />
         <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2111.4011)" />
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.4011)" />
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.4011)" />
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.5017)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Visitor" id="{58666681-43dd-4224-92df-5bcb359e0e4b}" />
       </MissingDependency>
       <MissingDependency>
