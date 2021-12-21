@@ -105,56 +105,6 @@
       <RootComponent type="300" schemaName="ur_visitorwelcomedeskapp_2927e" behavior="0" />
     </RootComponents>
     <MissingDependencies>
-      <MissingDependency>
-        <Required type="2" schemaName="businesscard" displayName="Business Card" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_SalesPatch201904 (9.0.1912.1007)">
-          <package>msdynce_SalesAnchor (9.0.21113.10001)</package>
-        </Required>
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="2" schemaName="businesscardattributes" displayName="BusinessCardAttributes" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_SalesPatch201904 (9.0.1912.1007)">
-          <package>msdynce_SalesAnchor (9.0.21113.10001)</package>
-        </Required>
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="61" schemaName="msdyn_/Contact/Contact.Library.js" displayName="msdyn_/Contact/Contact.Library.js" solution="FieldService (8.8.0.88)">
-          <package>FieldService_trial (8.8.56.23)</package>
-        </Required>
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="61" schemaName="msdyn_talkingpointsloader.js" displayName="msdyn_talkingpointsloader.js" solution="msdynce_Talkingpoints (9.0.1.701524)">
-          <package>msdynce_SalesInsightsAnchor (9.0.21113.10005)</package>
-        </Required>
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2111.4011)" />
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="Microsoft.AddressInputUCI" displayName="Microsoft.AddressInputUCI" solution="BaseCustomControlsCore (9.0.2111.4011)" />
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2111.4011)" />
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.4011)" />
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.4011)" />
-        <Dependent type="60" displayName="Information" parentDisplayName="Visitor" id="{58666681-43dd-4224-92df-5bcb359e0e4b}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.TalkingPointsControl.TalkingPoints" displayName="MscrmControls.TalkingPointsControl.TalkingPoints" solution="msdynce_Talkingpoints (9.0.1.701524)">
-          <package>msdynce_SalesInsightsAnchor (9.0.21113.10005)</package>
-        </Required>
-        <Dependent type="60" displayName="Visitor Contacts" parentDisplayName="Contact" id="{2b755722-b4b4-eb11-8236-0022486f6cfb}" />
-      </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
