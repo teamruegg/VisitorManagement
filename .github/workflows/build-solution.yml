@@ -1,5 +1,5 @@
-name: release-solution-to-prod
-# prepare for releasing to prod:
+name: build-solution
+# build solution from repro:
 #   convert solution to managed (using a build PowerPlatform environment for the conversion)
 #   upload the solution to the GitHub artifacts and deploy to the PROD environment
 #  
@@ -42,6 +42,7 @@ on:
        default: out/release
   release:
     types: [created]
+
 
 jobs:
   convert-to-managed:
@@ -90,29 +91,3 @@ jobs:
         name: managedSolutions
         path: ${{ github.event.inputs.solution_shipping_folder}}/${{ github.event.inputs.solution_name }}.zip
 
-  release-to-staging:
-    needs: [ convert-to-managed ]
-    runs-on: windows-latest
-    env:
-      RUNNER_DEBUG: 1
-
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        lfs: true
-
-    - name: Fetch the ready to ship solution from GH artifact store
-      uses: actions/download-artifact@v2
-      with:
-        name: managedSolutions
-        path: ${{ github.event.inputs.solution_release_folder}}
-    - name: Import solution to prod env
-      uses: microsoft/powerplatform-actions/import-solution@0.4.0
-      with:
-        environment-url: ${{secrets.ProdEnvironmentUrl}}
-        app-id: ${{secrets.ClientID}}
-        client-secret: ${{ secrets.PowerPlatformSPN }}
-        tenant-id: ${{secrets.TentantID}}
-        solution-file: ${{ github.event.inputs.solution_release_folder}}/${{ github.event.inputs.solution_name }}.zip
-        force-overwrite: true
-        publish-changes: true
