@@ -180,7 +180,7 @@
       <clientresources>
         <internalresources>
           <clientincludes>
-            <internaljscriptfile src="$webresource:AppCommon/Contact/Contact_main_system_library.js" />
+            <!-- <internaljscriptfile src="$webresource:AppCommon/Contact/Contact_main_system_library.js" /> -->
             <!-- <internaljscriptfile src="$webresource:Sales/Contact/Contact_main_system_library.js" />
             <internaljscriptfile src="$webresource:Sales/ClientCommon/Sales_ClientCommon.js" /> -->
           </clientincludes>
@@ -189,7 +189,7 @@
       <events>
         <event name="onload" application="true" active="true">
           <InternalHandlers>
-            <Handler functionName="AppCommon.Contact.Instance.form_onload" libraryName="AppCommon/Contact/Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" />
+            <!-- <Handler functionName="AppCommon.Contact.Instance.form_onload" libraryName="AppCommon/Contact/Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" /> -->
             <!-- <Handler functionName="Sales.Contact.Instance.Form_onload" libraryName="Sales/Contact/Contact_main_system_library.js" handlerUniqueId="fad0dc4f-a62b-48ad-a35b-b2bf83c1ba99" enabled="true" passExecutionContext="true" /> -->
           </InternalHandlers>
         </event>
@@ -1040,7 +1040,7 @@
       </DisplayConditions>
       <formLibraries>
         <!-- <Library name="msdyn_talkingpointsloader.js" libraryUniqueId="{30d6d0a4-d097-b9be-cc6e-5722727be490}" /> -->
-        <Library name="msdyn_/Contact/Contact.Library.js" libraryUniqueId="{8deabac1-da63-9b3d-d401-682d3820ebd9}" />
+        <!-- <Library name="msdyn_/Contact/Contact.Library.js" libraryUniqueId="{8deabac1-da63-9b3d-d401-682d3820ebd9}" /> -->
       </formLibraries>
       <footer id="{d08bc259-3c17-4566-9fba-25095d226bd0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>
