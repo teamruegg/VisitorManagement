@@ -1038,10 +1038,10 @@
       <DisplayConditions FallbackForm="true" Order="1">
         <Everyone />
       </DisplayConditions>
-      <formLibraries>
-        <!-- <Library name="msdyn_talkingpointsloader.js" libraryUniqueId="{30d6d0a4-d097-b9be-cc6e-5722727be490}" /> -->
-        <!-- <Library name="msdyn_/Contact/Contact.Library.js" libraryUniqueId="{8deabac1-da63-9b3d-d401-682d3820ebd9}" /> -->
-      </formLibraries>
+<!--       <formLibraries>
+        <Library name="msdyn_talkingpointsloader.js" libraryUniqueId="{30d6d0a4-d097-b9be-cc6e-5722727be490}" />
+        <Library name="msdyn_/Contact/Contact.Library.js" libraryUniqueId="{8deabac1-da63-9b3d-d401-682d3820ebd9}" />
+      </formLibraries> -->
       <footer id="{d08bc259-3c17-4566-9fba-25095d226bd0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>
           <row>
