@@ -8,9 +8,9 @@
     <form showImage="true" headerdensity="HighWithControls">
       <ancestor id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
       <hiddencontrols>
-        <data id="fullname" datafieldname="fullname" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+        <!-- <data id="fullname" datafieldname="fullname" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
         <data id="address1_addressid" datafieldname="address1_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
-        <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+        <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" /> -->
       </hiddencontrols>
       <tabs>
         <tab name="SUMMARY_TAB" id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}" IsUserDefined="0" showlabel="true" expanded="true" labelid="{03f5df0e-4d05-4556-9cb7-8c41557fbfdc}">
@@ -181,8 +181,8 @@
         <internalresources>
           <clientincludes>
             <internaljscriptfile src="$webresource:AppCommon/Contact/Contact_main_system_library.js" />
-            <internaljscriptfile src="$webresource:Sales/Contact/Contact_main_system_library.js" />
-            <internaljscriptfile src="$webresource:Sales/ClientCommon/Sales_ClientCommon.js" />
+            <!-- <internaljscriptfile src="$webresource:Sales/Contact/Contact_main_system_library.js" />
+            <internaljscriptfile src="$webresource:Sales/ClientCommon/Sales_ClientCommon.js" /> -->
           </clientincludes>
         </internalresources>
       </clientresources>
@@ -190,13 +190,13 @@
         <event name="onload" application="true" active="true">
           <InternalHandlers>
             <Handler functionName="AppCommon.Contact.Instance.form_onload" libraryName="AppCommon/Contact/Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" />
-            <Handler functionName="Sales.Contact.Instance.Form_onload" libraryName="Sales/Contact/Contact_main_system_library.js" handlerUniqueId="fad0dc4f-a62b-48ad-a35b-b2bf83c1ba99" enabled="true" passExecutionContext="true" />
+            <!-- <Handler functionName="Sales.Contact.Instance.Form_onload" libraryName="Sales/Contact/Contact_main_system_library.js" handlerUniqueId="fad0dc4f-a62b-48ad-a35b-b2bf83c1ba99" enabled="true" passExecutionContext="true" /> -->
           </InternalHandlers>
         </event>
       </events>
       <Navigation>
         <NavBar>
-          <NavBarByRelationshipItem RelationshipName="Contact_CustomerAddress" Id="navAddresses" Sequence="10" Area="Info" Show="false">
+<!--           <NavBarByRelationshipItem RelationshipName="Contact_CustomerAddress" Id="navAddresses" Sequence="10" Area="Info" Show="false">
             <Privileges>
               <Privilege Entity="" Privilege="ReadActivity" />
             </Privileges>
@@ -867,10 +867,10 @@
               <Title LCID="1028" Text="工單" />
             </Titles>
           </NavBarByRelationshipItem>
-        </NavBar>
+ -->        </NavBar>
       </Navigation>
       <controlDescriptions>
-        <controlDescription forControl="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}">
+<!--         <controlDescription forControl="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}">
           <customControl formFactor="2" name="MscrmControls.CardFeedContainer.CardFeedContainer">
             <parameters>
               <data-set name="SubGrid">
@@ -1011,7 +1011,8 @@
             </parameters>
           </customControl>
         </controlDescription>
-        <controlDescription forControl="{7fbb4522-cc5e-4ec6-a735-e886e6226bb4}">
+ -->
+         <controlDescription forControl="{7fbb4522-cc5e-4ec6-a735-e886e6226bb4}">
           <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
             <parameters>
               <datafieldname>ur_isvisitorguesthost</datafieldname>
@@ -1038,7 +1039,7 @@
         <Everyone />
       </DisplayConditions>
       <formLibraries>
-        <Library name="msdyn_talkingpointsloader.js" libraryUniqueId="{30d6d0a4-d097-b9be-cc6e-5722727be490}" />
+        <!-- <Library name="msdyn_talkingpointsloader.js" libraryUniqueId="{30d6d0a4-d097-b9be-cc6e-5722727be490}" /> -->
         <Library name="msdyn_/Contact/Contact.Library.js" libraryUniqueId="{8deabac1-da63-9b3d-d401-682d3820ebd9}" />
       </formLibraries>
       <footer id="{d08bc259-3c17-4566-9fba-25095d226bd0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
