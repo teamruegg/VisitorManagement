@@ -2,8 +2,11 @@ name: release-solution-to-prod
 # prepare for releasing to prod:
 #   convert solution to managed (using a build PowerPlatform environment for the conversion)
 #   upload the solution to the GitHub artifacts and deploy to the PROD environment
+#
+#  trigger on create release. This workflow is automatically triggered, when a new release
+#  is created.
 #  
-#  using spn-auth with Client ID and Tenant ID 
+#  using spn-auth with Client ID and Tenant ID for environemnet login 
 #  
 #  using secrets for
 #   ClientID              Service Principal App ID
@@ -11,7 +14,6 @@ name: release-solution-to-prod
 #   Password              User Password
 #   PowerPlatformSPN      Service Principal secrtes
 #
-#   DevEnvironmentUrl     Url referencing the development environment
 #   BuildEnvironmentUrl   Url referencing the build environment
 #   ProdEnvironmentUrl    Url referencing the production environment
 

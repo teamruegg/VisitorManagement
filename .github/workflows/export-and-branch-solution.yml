@@ -2,7 +2,7 @@ name: export-and-branch-solution
 # Export solution from DEV environment
 #  unpack it and prepare, commit and push a git branch with the changes
 #  
-#  using spn-auth with Client ID and Tenant ID 
+#  using spn-auth with Client ID and Tenant ID for environemnet login 
 #  
 #  using secrets for
 #   ClientID              Service Principal App ID
@@ -11,8 +11,7 @@ name: export-and-branch-solution
 #   PowerPlatformSPN      Service Principal secrtes
 #
 #   DevEnvironmentUrl     Url referencing the development environment
-#   BuildEnvironmentUrl   Url referencing the build environment
-#   ProdEnvironmentUrl    Url referencing the production environment
+
 
 on:
   workflow_dispatch:
