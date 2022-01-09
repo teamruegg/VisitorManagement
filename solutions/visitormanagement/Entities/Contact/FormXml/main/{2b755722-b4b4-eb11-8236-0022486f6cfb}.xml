@@ -196,7 +196,7 @@
       </events>
       <Navigation>
         <NavBar>
-<!--           <NavBarByRelationshipItem RelationshipName="Contact_CustomerAddress" Id="navAddresses" Sequence="10" Area="Info" Show="false">
+          <!--           <NavBarByRelationshipItem RelationshipName="Contact_CustomerAddress" Id="navAddresses" Sequence="10" Area="Info" Show="false">
             <Privileges>
               <Privilege Entity="" Privilege="ReadActivity" />
             </Privileges>
@@ -867,10 +867,11 @@
               <Title LCID="1028" Text="工單" />
             </Titles>
           </NavBarByRelationshipItem>
- -->        </NavBar>
+ -->
+        </NavBar>
       </Navigation>
       <controlDescriptions>
-<!--         <controlDescription forControl="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}">
+        <!--         <controlDescription forControl="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}">
           <customControl formFactor="2" name="MscrmControls.CardFeedContainer.CardFeedContainer">
             <parameters>
               <data-set name="SubGrid">
@@ -1012,7 +1013,7 @@
           </customControl>
         </controlDescription>
  -->
-         <controlDescription forControl="{7fbb4522-cc5e-4ec6-a735-e886e6226bb4}">
+        <controlDescription forControl="{7fbb4522-cc5e-4ec6-a735-e886e6226bb4}">
           <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
             <parameters>
               <datafieldname>ur_isvisitorguesthost</datafieldname>
@@ -1038,7 +1039,7 @@
       <DisplayConditions FallbackForm="true" Order="1">
         <Everyone />
       </DisplayConditions>
-<!--       <formLibraries>
+      <!--       <formLibraries>
         <Library name="msdyn_talkingpointsloader.js" libraryUniqueId="{30d6d0a4-d097-b9be-cc6e-5722727be490}" />
         <Library name="msdyn_/Contact/Contact.Library.js" libraryUniqueId="{8deabac1-da63-9b3d-d401-682d3820ebd9}" />
       </formLibraries> -->
