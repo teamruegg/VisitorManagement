@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>ur_visitorwelcomedeskapp_2927e</Name>
-  <AppVersion>2021-09-02T10:05:06Z</AppVersion>
+  <AppVersion>2022-01-09T09:29:28Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.21084.20.0</CreatedByClientVersion>
   <MinClientVersion>3.21084.20.0</MinClientVersion>
@@ -9,22 +9,18 @@
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(239, 31, 63, 1)</BackgroundColor>
-  <DisplayName>VisitorWelcomeDeskApp</DisplayName>
+  <DisplayName>VisitorWelcomeDeskApp_202112230736</DisplayName>
   <Description>Visitor Welcome Self Registration Check-In and Check-Out app for Welcome Desk Screen</Description>
-  <CommitMessage xsi:nil="true"></CommitMessage>
-  <Publisher xsi:nil="true"></Publisher>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"b26fbb3a-0ee2-4eb4-b393-09b79728b80f":{"id":"/providers/microsoft.powerapps/apis/shared_cognitiveservicescustomvision","displayName":"Custom Vision","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1481/1.0.1481.2460/cognitiveservicescustomvision/icon.png","dataSources":["CustomVision"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"sharedConnectionId":"87e10ebb-2f8d-4799-9c56-37785a2be1c6","bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["ClassifyImageV2"]}}</ConnectionReferences>
+  <ConnectionReferences>{"b26fbb3a-0ee2-4eb4-b393-09b79728b80f":{"id":"/providers/microsoft.powerapps/apis/shared_cognitiveservicescustomvision","displayName":"Custom Vision","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1481/1.0.1481.2460/cognitiveservicescustomvision/icon.png","dataSources":["CustomVision"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"sharedConnectionId":"e6e5bd4b-a171-4b5f-9f04-3c5a1d0e112c","bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["ClassifyImageV2"]}}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Visitors":{"entitySetName":"ur_visitors","logicalName":"ur_visitor"},"Visitor Equipments":{"entitySetName":"ur_visitorequipments","logicalName":"ur_visitorequipment"},"Visitor Equipment Loans":{"entitySetName":"ur_visitorequipmentloans","logicalName":"ur_visitorequipmentloan"},"Contacts":{"entitySetName":"contacts","logicalName":"contact"}}}}</DatabaseReferences>
-  <AppComponents>[]</AppComponents>
-  <AppComponentDependencies>[]</AppComponentDependencies>
-  <CanConsumeAppPass>1</CanConsumeAppPass>
   <CanvasAppType>0</CanvasAppType>
   <BypassConsent>0</BypassConsent>
-  <AdminControlBypassConsent>0</AdminControlBypassConsent>
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
-  <CdsDependencies>{"cdsdependencies":[{"logicalname":"ur_visitor","componenttype":1},{"logicalname":"ur_visitorequipment","componenttype":1},{"logicalname":"ur_visitorequipmentloan","componenttype":1},{"logicalname":"contact","componenttype":1}]}</CdsDependencies>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"ur_visitor"},{"componenttype":1,"logicalname":"ur_visitorequipment"},{"componenttype":1,"logicalname":"ur_visitorequipmentloan"},{"componenttype":1,"logicalname":"contact"}]}</CdsDependencies>
   <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/ur_visitorwelcomedeskapp_2927e_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/ur_visitorwelcomedeskapp_2927e_DocumentUri.msapp</DocumentUri>
