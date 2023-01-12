@@ -10,13 +10,13 @@ The Visitor Management is a collection of four Power Apps to manage smart factor
 
 We build this apps during a three day Hackathon with the Swiss Smart Factory team.
 
-[Hackathon - Visitor Management app](https://www.teamruegg.com/blog/posts/2021/september/visitor-management/)
+[Hackathon - Visitor Management app](https://www.ursruegg.com/blog/blogHackathonVisitorManagementApp.html)
 
 ## Swiss Smart Factory 
 The Swiss Smart Factory (SSF) is the first test and demonstration platform for Industry 4.0 in Switzerland and with the lighthouse project «Drone Production», we intended to show how smart factories can already work today with an entire production ecosystem powered by Microsoft Cloud and our Partner ecosystem.
 
 * [Switzerland Innovation - Swiss Smart Factory lighthouse project](https://www.sipbb.ch/en/forschung/swiss-smart-factory/)
-* [Swiss Smart Factory powered by Microsoft Cloud](https://www.teamruegg.com/digital/smart-factory/)
+* [Swiss Smart Factory powered by Microsoft Cloud](https://www.ursruegg.com/blog/blogSwissSmartFactory.html)
 
 
 ## Applications
